@@ -31,6 +31,6 @@ EXPOSE :80
 EXPOSE :21
 EXPOSE :8800
 EXPOSE :9001
-
+RUN whoami
 # Autostart script that is invoked during container start
 CMD ["/usr/bin/startup"]
